@@ -1,0 +1,2304 @@
+{
+  "id": "f2d20768-ae85-4adf-80b3-5e642de61975",
+  "version": "2.0",
+  "name": "visa",
+  "url": "https://www.flytoday.ir",
+  "tests": [{
+    "id": "8616a514-c802-445c-8a2a-28e9642b70b3",
+    "name": "visa",
+    "commands": [{
+      "id": "f4f67ca2-cbaf-437b-b52e-7b252ba6b7dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fb6ecb3-78b3-4c43-95d8-ed3b80981904",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14fdff0d-0332-459d-a05a-c266fcaef68e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd5c2ecb-5785-45a9-95ee-7d684534766e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3beab8ee-7825-4b56-b5a7-e7c440f9f3dc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed2536bf-2d34-4133-b47b-1770942a6c32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3beb8e6a-3e2e-4267-a88f-b0a71789e074",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eab4e51-ee29-4ba4-9211-9c798ebac1b5",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db1891bb-ded0-4576-b951-c23609deb568",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='دبی (امارات متحده عربی)']", "xpath:img"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2262275-0df3-4201-8f95-67678806f0b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//form/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ada7f0-b0b4-44dc-b1dd-4532936ba045",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(3)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(3)", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26118b90-f3bb-4162-b395-3f4bdb36df22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-sm",
+      "targets": [
+        ["css=.tw-text-sm", "css:finder"],
+        ["xpath=//div[2]/div/button/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 مسافر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "637e282d-766a-43ee-9a3a-4df9216e03d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4525c3f-3e93-4d02-a4ef-c49e999b0e91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9adf662-6222-4187-91d5-823384ef42df",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ceba7de1-dcee-4272-bab4-f5b32d6842e4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8378b49b-65a2-492b-b8e4-7d54397ec8a5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9fe83b0-2bcf-47ac-bede-b5d9d1df1581",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cb24adf-181e-4a8f-86c5-f82adcc499e4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "326a4195-0a73-458f-84cc-db610c9982a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b51b2c6-842d-4c88-ac7a-c4be31e5501c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2fd5290-5343-4567-8850-cfd7449ccbed",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "806a6a86-1817-49a1-9380-485a32fd880b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='دبی (امارات متحده عربی)']", "xpath:img"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93754b0f-b0c0-465b-a03c-02f2e7977601",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//form/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d80ffe-887e-48d1-ace5-e4f7702c6c7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(3)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(3)", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "976e5b06-57e0-4981-b640-2acd34190a80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-sm",
+      "targets": [
+        ["css=.tw-text-sm", "css:finder"],
+        ["xpath=//div[2]/div/button/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 مسافر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d6ee22b-456a-431b-b33f-62e61b366dd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc2893d-3e68-4ab7-bee2-dc360fed1301",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e7332cd-bf8a-4fb6-b37e-ae10eafd6b0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "072fbed9-bdc4-4f7a-904f-d7fe93d9e8c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field_focused__RO_J2",
+      "targets": [
+        ["css=.field_focused__RO_J2", "css:finder"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bc591fb-32a8-42df-8dfa-04f12e024489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "017a9dab-b370-4ca8-ab04-109a41749f88",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87383d58-2926-47ef-bc69-c27c5505e328",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "cab0ae22-9536-45ee-9be8-3aae00b916b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok:nth-child(2)",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='primary'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "862bb340-0810-402d-b574-0495382296f2",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fde1519-c010-444e-8b06-cf975eca14fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80cb0415-0caa-4ad8-9ab4-af2855d06562",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b451c0f0-beba-476b-a9fc-953606172227",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0344b7-6f08-4b8b-a9a2-1ffbdd0367df",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a@gmail.com"
+    }, {
+      "id": "969bcd06-f20d-4f1e-b051-ccda7087ac9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'موبایل')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32c4702-7504-4235-87fe-f4a94ba11d71",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "4be2262a-9518-4761-961c-e8859c6b0e22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-blue-dark:nth-child(1)",
+      "targets": [
+        ["css=.tw-text-blue-dark:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دفترچه مسافران')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c788814-9ea4-4706-bbb9-fae01a62559e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .add-passenger_btn__ltrGt",
+      "targets": [
+        ["css=.row:nth-child(2) .add-passenger_btn__ltrGt", "css:finder"],
+        ["xpath=(//button[@type='secondary'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div[2]/div/div[4]/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fd20b4b-728a-4d02-943f-2c458d2caa64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f817d9-ae8b-4409-85e8-fa2a7eea6690",
+      "comment": "",
+      "command": "type",
+      "target": "name=mobile-Adt-0",
+      "targets": [
+        ["name=mobile-Adt-0", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='mobile-Adt-0']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "731bd8f4-e2d6-4992-ab3f-36e70deffd38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(7) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-relative:nth-child(7) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[7]/button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'تاریخ رفت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc28b341-9fe1-4b90-b4be-08c8e806858d",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fef3bb0-9550-41ac-9606-7006e2d57495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17s22kg-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ba516b9-1ad3-4203-9a14-aa708056460a",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-3",
+      "targets": [
+        ["id=react-select-2-option-3", "id"],
+        ["css=#react-select-2-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-2-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b0794f4-3e32-4a8c-b4ca-7a09c098d52d",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7524055c-4f8d-4bac-8e44-2f3379b9a775",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1xhcotz-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b4c6ac6-41b0-43d1-83f8-d946b8bf7934",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-3-option-3",
+      "targets": [
+        ["id=react-select-3-option-3", "id"],
+        ["css=#react-select-3-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-3-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-3-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e827d520-8392-4511-a6c6-2c129e25e0d1",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa6cb481-73ea-4ae4-9e6a-242847832fd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xsonp6-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "74c4a360-bf3c-4821-a5e5-daf5ad980348",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-4-option-3",
+      "targets": [
+        ["id=react-select-4-option-3", "id"],
+        ["css=#react-select-4-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-4-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-4-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2f23fb9-15a9-4036-b6fd-dc84def1b337",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[7]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf0570ad-5d71-47bb-a62f-56cf22322d98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Atw-px-5",
+      "targets": [
+        ["css=.md\\3Atw-px-5", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ذخیره و ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad7fdd2f-3eab-4123-88d6-2d089b626988",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "018661f8-0d6b-4337-a111-3174790f3ddb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3656139-ff7f-4bac-a59b-02ab1cd842fb",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6350cd2-ce5f-40b0-9c83-9579d85784d1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a1bfe04-db28-4624-a482-8e752c42d69e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49a13ad2-7d81-4f97-9bac-29f3fef2e0c9",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92c6803c-eb34-4dcd-ba94-7c47441b47da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a7a0e9-6fc4-4c02-a0e6-82acb196eed9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f448ee1c-b0ce-4224-b7c1-9dc99aaf12d1",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec4b7284-9b4a-4fc6-9c8b-60f9aaa1fa66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(5) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(5) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='چین']", "xpath:img"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a8723a5-7a13-46a9-80f1-ec0e01730fe4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e4d572b-795f-483c-b7eb-13cdb3e8c8d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_label__TwY5y",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_label__TwY5y", "css:finder"],
+        ["xpath=//button/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb90ec1c-cc96-4aab-be8d-64588fbcc1ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(1)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(1)", "css:finder"],
+        ["xpath=//form/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6de3f2cd-1393-4fb8-be9a-cece979377f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative > .field_baseField__Oy6Wv > .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.tw-relative > .field_baseField__Oy6Wv > .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a329f2-81e2-4372-aa8c-808c773d52ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ae3452a-cfd2-4405-a81d-12520cef60f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0847fbfa-4890-4d19-8c37-527ecc622111",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "580c697b-1873-4139-9480-7bea6ea2bef5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field_focused__RO_J2",
+      "targets": [
+        ["css=.field_focused__RO_J2", "css:finder"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90e23cd3-734c-454d-9756-1640947bed35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de056fa-95d1-41fc-a237-57cdd9afd6eb",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51dfd505-4571-4076-b428-2d6881e649cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "1a61926b-439f-4906-bff1-cc4d957550a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok:nth-child(2)",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='primary'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ede92c-fb9f-4ab8-b025-1825e54aa19a",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbe2a5e3-a1ee-4f69-a29b-333fe334bf41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-6:nth-child(3)",
+      "targets": [
+        ["css=.tw-mt-6:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "672f087e-2a56-4fe7-a600-865dda736d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-4 > .position-relative:nth-child(1) .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.tw-mt-4 > .position-relative:nth-child(1) .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b545d918-8f1b-495d-9010-35029d717494",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a@gmail.com"
+    }, {
+      "id": "6654f278-987d-4d07-8ee1-08095947c9fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.position-relative:nth-child(2) > .field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07120a10-50c3-4e16-843d-28db052e615f",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "32cee100-64d8-48ef-822a-4ba7c48f7560",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-blue-dark:nth-child(1)",
+      "targets": [
+        ["css=.tw-text-blue-dark:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دفترچه مسافران')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16a4ac2c-64f0-40c8-9a5a-aed0873cafc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .add-passenger_btn__ltrGt",
+      "targets": [
+        ["css=.row:nth-child(2) .add-passenger_btn__ltrGt", "css:finder"],
+        ["xpath=(//button[@type='secondary'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div[2]/div/div[4]/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cf60e96-6e34-4d26-bb0a-de40f9533ce8",
+      "comment": "",
+      "command": "click",
+      "target": "name=mobile-Adt-0",
+      "targets": [
+        ["name=mobile-Adt-0", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='mobile-Adt-0']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6394648-2911-49e2-80fe-7d09dad3e81f",
+      "comment": "",
+      "command": "type",
+      "target": "name=mobile-Adt-0",
+      "targets": [
+        ["name=mobile-Adt-0", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='mobile-Adt-0']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "74d698e5-2ec4-4889-a2d2-758c37e28c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(7) .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.tw-relative:nth-child(7) .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[7]/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62dd21f7-f037-4a73-b668-ebf39222aa72",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30e9f29b-171e-4226-8491-e4bb59eeb6f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-15lsz6c-indicatorContainer path",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc8c71a5-85e9-4586-be1f-292f71bf7fa9",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-3",
+      "targets": [
+        ["id=react-select-2-option-3", "id"],
+        ["css=#react-select-2-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-2-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2a58de0-8cc2-4a4c-bf89-9157a9162092",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34797d70-c1c4-4ddf-b478-f7aeef5747af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-15lsz6c-indicatorContainer path",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer > .css-8mmkcg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bac0371-91ea-4308-8fe0-9d0bcfe3e55c",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-3-option-4",
+      "targets": [
+        ["id=react-select-3-option-4", "id"],
+        ["css=#react-select-3-option-4", "css:finder"],
+        ["xpath=//div[@id='react-select-3-option-4']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-3-listbox']/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a74087-c5a9-411d-a005-c5a22e0e9eb7",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23025c73-23ab-496d-b61a-aa81e833ca74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-15lsz6c-indicatorContainer > .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer > .css-8mmkcg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cae3c06-8831-4e2b-a712-b7e1795a5eaa",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-4-option-5",
+      "targets": [
+        ["id=react-select-4-option-5", "id"],
+        ["css=#react-select-4-option-5", "css:finder"],
+        ["xpath=//div[@id='react-select-4-option-5']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-4-listbox']/div/div[6]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d95eae89-45bd-409f-807b-c7b3ada73b5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[7]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32645a7-5e37-486f-9a9c-ed2e624e7651",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Atw-px-5",
+      "targets": [
+        ["css=.md\\3Atw-px-5", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ذخیره و ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c3b1b4c2-cfb0-40bb-b487-dfe9565455e9",
+    "name": "Successful login by pressing the visa application registration button",
+    "commands": [{
+      "id": "e036da59-62aa-49e3-bcdd-f214e9d16da6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9ac10fb-576f-4419-80db-93589d1b7eb7",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "068bea1b-b5fa-40ca-ba32-daa0bd5e0d6d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a695089-808b-475f-91a7-e4e3ab3118c8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78a9ef09-1ff3-4a95-a38d-a909ad072408",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b911d148-a451-4952-8e4e-3b342d1356cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53b01caa-c20c-4de5-81ed-676229d2e1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a1dac4f-698b-44c4-a62e-34d25c75d772",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f243747-ad37-436c-bbca-3a337c9a48d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='دبی (امارات متحده عربی)']", "xpath:img"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e6272ea-5719-48ce-966f-e5f03e345d68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//form/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b008bc47-a667-4b68-ac94-995a62a4243b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(3)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(3)", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47aa659d-cb55-4e6f-a228-e8f311022802",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-sm",
+      "targets": [
+        ["css=.tw-text-sm", "css:finder"],
+        ["xpath=//div[2]/div/button/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 مسافر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58751ecd-75a1-4076-9744-1a1b3e7bc281",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c76653d8-bfe2-4507-8a58-50cadbdcc0ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6f107f-00e8-4e65-9614-89111fdab4b9",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "2dc24f53-e275-4cd7-9b22-e2c5397b38ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field_focused__RO_J2",
+      "targets": [
+        ["css=.field_focused__RO_J2", "css:finder"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "491a346f-6b06-4c8e-b778-eac19e70e2cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3f65b30-cbcb-4c30-a4c4-58c8ceb8fa5d",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5e478dd-2e66-44d3-b0f3-463d564199bd",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "695a6f6a-51a1-4c7b-86b6-104110a12308",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok:nth-child(2)",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='primary'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57cd249-0da5-43f1-b8e5-c885521521e7",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "403a099d-78ee-405d-8091-c97ace41fe89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f86204e-4a12-4490-a231-cc21ad22c95c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2669704-7ddb-4c8e-92f1-3a8d71fa006c",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "adf6e1db-171e-4a84-acab-18ffb2feab95",
+    "name": "You have successfully entered the passenger's information and entered the payment stage",
+    "commands": [{
+      "id": "e0be05ae-0365-4ff8-ae89-28954d915c09",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "384d694a-274d-42e7-86be-883bda1ddbed",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a34f704-20ed-4281-beee-181e25eb9ccd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "565c3501-5955-40f7-9deb-902ab55eeccf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15ae93f8-f66d-4829-a199-8988c6151470",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6638f169-dd22-4b7f-9f9c-f6c2d4b7b11e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cbb9978-a0f2-4c41-9219-c54ef188e1f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99d6c68-6b1b-4d24-927e-485308139a87",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa65c088-0b12-4c97-8254-7a1968856410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(1) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='دبی (امارات متحده عربی)']", "xpath:img"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c47c6fc2-bd03-4c03-a8d3-18fa5c6a301a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//form/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6925d479-65c1-4b8f-af14-7ae85daa667c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(3)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(3)", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d5bbe2-1cd4-49f6-9d09-e88f14e2557d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-sm",
+      "targets": [
+        ["css=.tw-text-sm", "css:finder"],
+        ["xpath=//div[2]/div/button/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'1 مسافر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfecc56f-c969-491d-be9d-c9359a9db28f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e93d7f-2296-4ff6-b254-772a62cfc01a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "954cd19c-7798-4234-98a6-cdb4c79a1f44",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "76e101f2-263a-4e30-9b39-69fcf08bed70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field_focused__RO_J2",
+      "targets": [
+        ["css=.field_focused__RO_J2", "css:finder"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cebd86a-fb95-4f3c-bc24-4bf183d5f9c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e05c0d40-8fa6-434a-9965-09bf00af9379",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c102c43-0089-4af2-a141-dba4a5be3822",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "e1653a84-b292-40e2-ae3a-2131fe2e535a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok:nth-child(2)",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='primary'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5496a93-0e50-4176-9e66-b4629b5cb38e",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d321599-e108-4f7e-a29e-38e59bba795d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed45fc6-7bfa-4c01-ac4a-d2540279f674",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75fa349-c609-45d4-be72-f19aeab922be",
+      "comment": "",
+      "command": "type",
+      "target": "css=.tw-pb-1 [name='email']",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a@gmail.com"
+    }, {
+      "id": "cd4c98b4-f4b2-4de7-aab4-c8db8a7daa96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'موبایل')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ded3c6-88ef-4a30-bf40-f6e813223058",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "f1e22ac9-a942-49ca-b837-cac435c237b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-blue-dark:nth-child(1)",
+      "targets": [
+        ["css=.tw-text-blue-dark:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دفترچه مسافران')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44d159a1-e5bc-46db-8fb9-4f82b3e5ce7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .add-passenger_btn__ltrGt",
+      "targets": [
+        ["css=.row:nth-child(2) .add-passenger_btn__ltrGt", "css:finder"],
+        ["xpath=(//button[@type='secondary'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div[2]/div/div[4]/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7e01de-7fe3-4b08-bfd9-2edae025bd5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e69309a5-46fd-40b6-8883-82f84546de90",
+      "comment": "",
+      "command": "type",
+      "target": "name=mobile-Adt-0",
+      "targets": [
+        ["name=mobile-Adt-0", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='mobile-Adt-0']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "3aab8b37-2b67-4969-a4c8-359e9bff2212",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(7) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-relative:nth-child(7) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[7]/button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'تاریخ رفت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fade21e1-5492-4ecc-bdfb-02e5cc93ee4b",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad2c835d-fcd5-4507-a9fc-e6ab95909277",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17s22kg-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "accc5118-e1cd-4e2d-9aa7-07954630b784",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-3",
+      "targets": [
+        ["id=react-select-2-option-3", "id"],
+        ["css=#react-select-2-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-2-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb1e148-7e64-4f30-a3ca-a35fc5b87778",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "284b32be-a29c-4d19-a0ca-24f9ccff362c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1xhcotz-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ec4a98e-2d0f-48e0-b50b-4e32c14334e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-3-option-3",
+      "targets": [
+        ["id=react-select-3-option-3", "id"],
+        ["css=#react-select-3-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-3-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-3-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43845918-3906-49ef-a9aa-279dc3db0ce0",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcf40194-1ab3-41a0-8fa5-67cfe93ee977",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xsonp6-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be92e16-283a-4b7f-93c0-ccd458c04d44",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-4-option-3",
+      "targets": [
+        ["id=react-select-4-option-3", "id"],
+        ["css=#react-select-4-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-4-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-4-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3982ad4-194b-4d99-af2d-24df340a1a4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[7]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08b52d12-1ea0-40b6-a481-6bef4d6f3517",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Atw-px-5",
+      "targets": [
+        ["css=.md\\3Atw-px-5", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ذخیره و ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7978b02-d2be-473a-9324-a32711ef5c33",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d58959b-1c0e-4b3c-97c9-200ef9ee4ea6",
+    "name": "Successfully register the visa application",
+    "commands": [{
+      "id": "ceb90f6b-2c8e-4085-bb26-1e5307b274f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9ee6a0a-e248-4ca0-aaa5-6e6009ab5770",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "140a0466-45a9-4929-a01a-10063c42a501",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7705663-e5ec-4ceb-9071-9f6b2f154000",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3faa0f0d-93c5-42c6-8b19-26f97a6c3d37",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2dc8e3c-22be-47e3-a3b0-22965ca16884",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-border-none > span:nth-child(1)",
+      "targets": [
+        ["css=.tw-border-none > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'بیشتر')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4baefb5c-f822-49a6-be87-39a48a40573b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_option__ZEQzM:nth-child(2)",
+      "targets": [
+        ["css=.option_option__ZEQzM:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div/nav/div/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e466f53d-b90c-424e-b201-78cfd59d82d1",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ea54af4-315d-4b05-a9aa-2b3649a5fd8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(5) > .tw-text-primaryBlack > .tw-w-full",
+      "targets": [
+        ["css=.tw-relative:nth-child(5) > .tw-text-primaryBlack > .tw-w-full", "css:finder"],
+        ["xpath=//img[@alt='چین']", "xpath:img"],
+        ["xpath=//div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "511c1df8-2598-4a74-8ae8-1d2398a428f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.select-field_selectField__H30Vw .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//form/div/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e513a0e-210e-486a-af1c-35c5c6e82348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.option_selectOption__T1yUy:nth-child(1)",
+      "targets": [
+        ["css=.option_selectOption__T1yUy:nth-child(1)", "css:finder"],
+        ["xpath=//form/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34a38972-bb78-4f3c-bd84-5cbdd49ee8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative > .field_baseField__Oy6Wv > .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.tw-relative > .field_baseField__Oy6Wv > .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[2]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bfb9d3e-4dc4-4d85-a7ba-222d1bd434cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new_newButton__gm0Gv",
+      "targets": [
+        ["css=.new_newButton__gm0Gv", "css:finder"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'تایید')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ab6c50-04b4-449e-b9a2-fe05b270a282",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-6:nth-child(3)",
+      "targets": [
+        ["css=.tw-mt-6:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec94ac18-4e4c-4a7c-8cef-67ae15f2ed36",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "1ada270d-9b2b-4d97-9c86-85c61cb6d943",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "106417d5-ca73-44ce-b862-28b43705309b",
+      "comment": "",
+      "command": "click",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bb3638-18c0-4511-8096-ae0382777908",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c153383e-37bf-446a-a070-2d1360dc1ae4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd1452c4-1d67-46df-bae4-fc4351e7b2bb",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1306253b-721a-408b-802f-34d9392909e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "1ab80cc8-423a-48c0-90ca-96b916295575",
+      "comment": "",
+      "command": "click",
+      "target": "css=.authentication_btnAuth__WVPok:nth-child(2)",
+      "targets": [
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='primary'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc0c09c7-a021-4901-a4cd-f6e10402e8f0",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86f2c164-699b-41f5-96f4-1861967a4ae5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-6:nth-child(3)",
+      "targets": [
+        ["css=.tw-mt-6:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='primary']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت درخواست')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "924b5735-7bd1-4d45-af28-42abad3f4783",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c432d8d-d4fb-4a79-9fdd-4efc5a557aea",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9564ec3-dbd4-47f2-8e95-628a6c4e087c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.tw-pb-1 [name='email']",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "a@gmail.com"
+    }, {
+      "id": "366447a9-cb46-4c8e-841d-03a76f458f95",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-mt-4 > .position-relative:nth-child(2) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'موبایل')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "070a04a2-f750-4553-a3fc-7443d994a4fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=phoneNumber",
+      "targets": [
+        ["name=phoneNumber", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='phoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='visaServices']/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "979f2801-357a-43c8-96f3-4d8fb7901781",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-text-blue-dark:nth-child(1)",
+      "targets": [
+        ["css=.tw-text-blue-dark:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دفترچه مسافران')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b810e67-eafc-430d-98db-45f559c3e166",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) .add-passenger_btn__ltrGt",
+      "targets": [
+        ["css=.row:nth-child(2) .add-passenger_btn__ltrGt", "css:finder"],
+        ["xpath=(//button[@type='secondary'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div[2]/div/div[4]/div[2]/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f923a261-1ef8-4818-954b-2e5529c07d43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_",
+      "targets": [
+        ["css=.position-relative:nth-child(4) .field_labelValueWrapper__Xvf3_", "css:finder"],
+        ["xpath=//div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970d0b3a-94f9-4328-b1fb-c73f6d0059eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=mobile-Adt-0",
+      "targets": [
+        ["name=mobile-Adt-0", "name"],
+        ["css=.field_focused__RO_J2 .field_value__EXUsj", "css:finder"],
+        ["xpath=//input[@name='mobile-Adt-0']", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "09121111111"
+    }, {
+      "id": "b5a11b82-6aff-4ebf-83ce-3d4b84985a3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-relative:nth-child(7) .field_label__TwY5y",
+      "targets": [
+        ["css=.tw-relative:nth-child(7) .field_label__TwY5y", "css:finder"],
+        ["xpath=//div[7]/button/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'تاریخ رفت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32f0a630-8a24-471d-a098-8a42468af665",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1715531-edd8-4512-bcd9-488979ede592",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17s22kg-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c186425-24dd-4dd4-85e9-1fa360768186",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-2-option-3",
+      "targets": [
+        ["id=react-select-2-option-3", "id"],
+        ["css=#react-select-2-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-2-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-2-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80f45388-1060-4d45-b3c4-2c8fa6046a47",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a57e6817-5ae5-4ca7-8186-361ebe339dea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1xhcotz-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4fe230c-68e4-41e5-94ad-99a00cf2ac6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-3-option-3",
+      "targets": [
+        ["id=react-select-3-option-3", "id"],
+        ["css=#react-select-3-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-3-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-3-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b5e6ade-5682-4914-a539-f2a53194c085",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce0869e5-0137-480a-ba61-8b09796d901c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xsonp6-control .css-8mmkcg",
+      "targets": [
+        ["css=.css-15lsz6c-indicatorContainer path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6487e8dd-5aae-4aca-ae4e-d82b197917cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=react-select-4-option-3",
+      "targets": [
+        ["id=react-select-4-option-3", "id"],
+        ["css=#react-select-4-option-3", "css:finder"],
+        ["xpath=//div[@id='react-select-4-option-3']", "xpath:attributes"],
+        ["xpath=//div[@id='react-select-4-listbox']/div/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfda8e90-3d26-4276-bbdd-1df97abc1e4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(3)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[7]/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ثبت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c8e48e-5b6b-4049-aa77-1488c91e74cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3Atw-px-5",
+      "targets": [
+        ["css=.md\\3Atw-px-5", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ذخیره و ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c5098e6-8d43-4226-b06f-d545d7dc52b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-order-1:nth-child(2)",
+      "targets": [
+        ["css=.tw-order-1:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ذخیره و ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6787dafd-e5d6-4169-9a3a-c616e38b7986",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,666.25)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eadbc05-bb80-4e8a-a30d-d9fa7926b93f",
+      "comment": "",
+      "command": "type",
+      "target": "name=address-Adt-0",
+      "targets": [],
+      "value": "ghgjghfghgf"
+    }, {
+      "id": "ad0c5079-a730-430a-8b7d-1761174d8694",
+      "comment": "",
+      "command": "click",
+      "target": "css=[type='submit']",
+      "targets": [
+        ["css=.checkbox-with-logo_icon__ZwD1n", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "23419d17-b5b1-4e86-ae7a-2f6e32a6f209",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-of-type(2)",
+      "targets": [
+        ["css=#actionButtonDesktop > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='actionButtonDesktop']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'تایید و پرداخت')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0b84164-f6b8-4bac-a428-cf9419fe6068",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90945e12-f21b-432b-bdd3-cdbb6d19000b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-of-type(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8229dcd9-a9c7-44fc-9552-b2ef80b940b5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbd35f8d-c007-4214-be1f-ab4956c4e141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox-with-logo_icon__ZwD1n",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c917a789-4ee4-4cff-b88d-1d550835b0a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tw-px-3.tw-mx-1",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "600c167d-1de6-41e5-8487-dcc0db5eee87",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8616a514-c802-445c-8a2a-28e9642b70b3"]
+  }],
+  "urls": ["https://www.flytoday.ir/"],
+  "plugins": []
+}
