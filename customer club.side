@@ -1,0 +1,435 @@
+{
+  "id": "4bc164a3-b142-4514-9dd6-c788c890e8a3",
+  "version": "2.0",
+  "name": "customer club",
+  "url": "https://production.flytoday.ir",
+  "tests": [{
+    "id": "c9786ee2-0420-47b1-a45c-daeb006b551b",
+    "name": "Successfully receive the award",
+    "commands": [{
+      "id": "4b89cc85-db7d-4f4c-bf2b-1b281106dc7a",
+      "comment": "",
+      "command": "open",
+      "target": "https://stage.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "185b0ea3-6092-4a7b-81d6-9148b0c159e6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c36ee1c2-20d3-4813-87cf-eb90cd89511c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3470b9-2fe0-4d69-b3e1-46758feff091",
+      "comment": "",
+      "command": "executeScript",
+      "target": " window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75e6fba-d9e4-4541-983e-04a0897df734",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfef0899-db62-4559-b29e-9eec6f7e0c04",
+      "comment": "",
+      "command": "open",
+      "target": "https://stage.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ae62235-4564-4f63-953c-0523e7e0e254",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee57db95-ab3e-4998-920a-01c831f05c1f",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39f1cfe6-20ce-42c9-acae-6ab33f0d639e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gap-4 > .text-sm:nth-child(1)",
+      "targets": [
+        ["css=.gap-4 > .text-sm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/button/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ورود')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f29c15-ba0d-4c90-a1a3-b2804c4f7a16",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "b4ca3d7f-7ccf-4a45-a41f-9eb6050f209e",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"continue-btn\"]",
+      "targets": [
+        ["css=*[data-test=\"continue-btn\"]", "css:data-attr"],
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f4698b8-db7f-4d21-8219-3b8b1599675d",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47894857-907b-4267-81d3-3ef7640ab25d",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "bc2949b9-d8a6-4730-bb4f-dbdb65dd2a67",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-btn\"]",
+      "targets": [
+        ["css=*[data-test=\"login-btn\"]", "css:data-attr"],
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bab9cbe-923c-4f8d-b77e-4953b2cd4029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-ellipsis:nth-child(1)",
+      "targets": [
+        ["css=.text-ellipsis:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'آزاده آزادهه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a65ee8-4b19-41de-a6f4-81a7a6779858",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"profile\"]",
+      "targets": [
+        ["css=*[data-test=\"profile\"]", "css:data-attr"],
+        ["css=a:nth-child(1) > .nav_dashboardMenuItem__8IyAF", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd98546b-063f-4817-b305-3a3311d4530c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dashboard-menu_menuLink__Jy_Hb:nth-child(7) > .flex > span",
+      "targets": [
+        ["css=.dashboard-menu_menuLink__Jy_Hb:nth-child(7) > .flex > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/div/div/div/div[3]/a[7]/div/span", "xpath:idRelative"],
+        ["xpath=//a[7]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'باشگاه مشتریان')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da1a4a5c-53d7-4859-be47-cd1006a087cb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57befccc-33a6-4cc2-95a5-69696fc0295f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) > .flex .text-blueLogo",
+      "targets": [
+        ["css=.flex:nth-child(2) > .flex .text-blueLogo", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/div/div[2]/div/div/div/div[4]/div[2]/div[2]/div/div[2]/div[2]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c371242-8a58-4f98-9546-3019ac2ff8f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(1)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دریافت جایزه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7f19013-ef2a-4ec0-9a04-e2dc480221ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-4",
+      "targets": [
+        ["css=.mt-4", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'کدهای دریافتی')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6caec124-d5e8-4bb3-80e7-9462f2cde206",
+    "name": "Successful copy of discount code from Modal",
+    "commands": [{
+      "id": "5a2d2fe6-6eaa-4b10-b8a8-54b78fa43309",
+      "comment": "",
+      "command": "open",
+      "target": "https://stage.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da8dd586-ae35-44d1-b813-bb328d4000ce",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.cookie.split(\";\").forEach(function(c) { document.cookie = c.trim().split(\"=\")[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/'; });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7295745b-ba98-44df-97ee-9451aace2ef8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.localStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90941911-9059-46fe-a749-6991e28a103b",
+      "comment": "",
+      "command": "executeScript",
+      "target": " window.sessionStorage.clear();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "525dd98f-f5e4-4101-b99a-9802088e8141",
+      "comment": "",
+      "command": "executeScript",
+      "target": "caches.keys().then(names => { for (let name of names) caches.delete(name); });",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e810406f-b1d6-494a-af3a-91e10ccd3434",
+      "comment": "",
+      "command": "open",
+      "target": "https://stage.flytoday.ir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "854a11c9-992f-4af4-81b5-3472c4a1bc87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gap-4 > .text-sm:nth-child(1)",
+      "targets": [
+        ["css=.gap-4 > .text-sm:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/button/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ورود')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0934228a-b6ea-4e7b-9e7a-4287f551a2f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=emailOrMobile",
+      "targets": [
+        ["name=emailOrMobile", "name"],
+        ["css=.letter-1", "css:finder"],
+        ["xpath=//input[@name='emailOrMobile']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "09356671285"
+    }, {
+      "id": "63dac6ad-6a32-48c1-939b-69f9d0382da3",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"continue-btn\"]",
+      "targets": [
+        ["css=*[data-test=\"continue-btn\"]", "css:data-attr"],
+        ["css=.authentication_btnAuth__WVPok", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ادامه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e876830-a656-434e-bf06-e41049a70b77",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.field_labelValueWrapper__Xvf3_:nth-child(2) > .text-field_input__e40ih", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be465a37-9e0b-4847-b525-4bb32e3d3f69",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.full-en-text", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Aa123456"
+    }, {
+      "id": "6cc47585-8173-4580-90b7-a936fde8f84f",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"login-btn\"]",
+      "targets": [
+        ["css=*[data-test=\"login-btn\"]", "css:data-attr"],
+        ["css=.authentication_btnAuth__WVPok:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbe6d4b3-c883-45e7-9688-1ea0b167c5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-ellipsis:nth-child(1)",
+      "targets": [
+        ["css=.text-ellipsis:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'آزاده آزادهه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a004d205-0ce0-4b44-abe9-b030e76d5e0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"profile\"]",
+      "targets": [
+        ["css=*[data-test=\"profile\"]", "css:data-attr"],
+        ["css=a:nth-child(1) > .nav_dashboardMenuItem__8IyAF", "css:finder"],
+        ["xpath=//div[@id='back-to-top-anchor']/header/div/div[2]/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664f239d-8701-4473-ae7b-40f86e0c070e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dashboard-menu_menuLink__Jy_Hb:nth-child(7) > .flex > span",
+      "targets": [
+        ["css=.dashboard-menu_menuLink__Jy_Hb:nth-child(7) > .flex > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/div/div/div/div[3]/a[7]/div/span", "xpath:idRelative"],
+        ["xpath=//a[7]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'باشگاه مشتریان')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c92eb42-31d0-4d94-9f42-7647a7b290bb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a820d799-3c11-4008-8e41-667ec9c6e39c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) > .flex .text-blueLogo",
+      "targets": [
+        ["css=.flex:nth-child(2) > .flex .text-blueLogo", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/div/div[2]/div/div/div/div[4]/div[2]/div[2]/div/div[2]/div[2]/a/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d1de66-4606-4a56-9518-b198ab71b92a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_primaryBtn__dJOjt:nth-child(1)",
+      "targets": [
+        ["css=.button_primaryBtn__dJOjt:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='modals-portal']/div/div/div[2]/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'دریافت جایزه')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "094f41c3-0e8f-4bde-b81f-13e87d714ae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.me-2 > path",
+      "targets": [
+        ["css=.me-2 > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0a4dedad-d033-474f-b702-bc680fc77d8a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9786ee2-0420-47b1-a45c-daeb006b551b"]
+  }],
+  "urls": ["https://production.flytoday.ir/"],
+  "plugins": []
+}
